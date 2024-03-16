@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Back",
+  "identifier": "texture:38066-90076185-1dcf-4055-b4da-01824ec9556b",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "60e6da8ca01a7a706b2533b97990b26e",
+  "assetLocator": "textures/Back.jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 814,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 564,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "60e6da8ca01a7a706b2533b97990b26e",
+      "colorCount": 31817,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 11.336857259029225,
+      "pixelsHigh": 814,
+      "pixelsWide": 564
+    }
+  ]
+}

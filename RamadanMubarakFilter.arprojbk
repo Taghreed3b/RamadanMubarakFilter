@@ -1,0 +1,3143 @@
+{
+  "modelName": "document",
+  "name": "Effect",
+  "identifier": "document:891-90076185-1dcf-4055-b4da-01824ec9556b",
+  "id": "889900761851dcf4055b4da01824ec9556b",
+  "revision": "272882900761851dcf4055b4da01824ec9556b",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "macosx",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "cameraFar": 50,
+  "cameraNear": 0.009999999776482582,
+  "measurementUnit": "meter",
+  "objects": [
+    {
+      "modelName": "assets_config_model",
+      "identifier": "assets_config_model:1082-90076185-1dcf-4055-b4da-01824ec9556b",
+      "categoriesOrder": [
+        "textures",
+        "materials",
+        "playback_controllers",
+        "audio",
+        "patch_assets"
+      ]
+    }
+  ],
+  "projectFormatType": "separated_files",
+  "usingPatchesV2": true,
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:117071-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "patch_asset_instance_model:117065-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "9124932184407007856",
+        "toPatch": "template_patch_model:117069-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:117075-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:117069-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:117073-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:117079-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:55319-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:117077-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:117083-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:117077-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:117081-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:117087-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:117081-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:117085-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:117089-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:117085-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "patch_asset_instance_model:117065-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "10297260154708680672"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:178725-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:55319-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:178723-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:178729-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3211-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "patch_asset_instance_model:117065-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "3869721247865683186"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:24831-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:24825-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:24823-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:24833-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "producer_patch_model:24829-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:24823-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:24835-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:24823-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:24827-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:24841-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3425-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "1002",
+        "toPatch": "template_patch_model:24825-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3213-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "producer_patch_model:3003-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3211-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3427-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3211-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3425-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3431-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3425-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:3429-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3437-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3429-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:3433-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3441-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3211-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3439-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3443-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3439-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3425-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "104"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3924-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3425-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:3922-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3928-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3922-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:3926-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3932-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "producer_patch_model:3003-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3930-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3942-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "producer_patch_model:3934-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3940-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3958-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3930-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3956-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3960-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3940-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3956-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3962-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3956-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3952-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:45405-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:9239-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:6047-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:45409-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8725-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:45407-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4655-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "producer_patch_model:3938-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4235-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4659-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3930-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4239-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4663-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "producer_patch_model:3936-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4651-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4669-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:4235-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4239-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4671-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3930-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4649-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4673-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:4651-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4649-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4675-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:4649-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4653-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4677-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:4239-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4237-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4695-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:4685-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4693-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:5085-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:4693-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:4679-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55275-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:50508-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:50048-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55285-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8197-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:55283-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55289-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8717-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:55287-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55293-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:9233-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:55291-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55297-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:55283-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:55295-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55299-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:55295-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:50048-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55303-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:55287-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:55301-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55305-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:55301-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:50508-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55309-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:55291-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:55307-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55313-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:55307-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:50508-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:55321-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:50048-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:55319-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8201-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:3952-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8199-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8203-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8199-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8197-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8211-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8197-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8209-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8215-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8209-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8213-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8217-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8213-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:4685-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8715-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8717-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8713-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8719-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8713-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8731-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8721-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8711-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8725-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8727-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8723-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8717-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8729-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:8731-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8711-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:8733-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:4237-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:8723-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:9229-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:9249-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:9235-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:9237-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:9241-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:9233-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:9243-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:9231-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:9239-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:9245-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:9235-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:9231-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:9247-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:9233-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:9249-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:9251-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPatch": "template_patch_model:4653-90076185-1dcf-4055-b4da-01824ec9556b",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:9241-90076185-1dcf-4055-b4da-01824ec9556b",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:977-90076185-1dcf-4055-b4da-01824ec9556b",
+        "subpatches": [
+          "consumer_patch_model:117073-90076185-1dcf-4055-b4da-01824ec9556b",
+          "consumer_patch_model:178723-90076185-1dcf-4055-b4da-01824ec9556b",
+          "consumer_patch_model:24827-90076185-1dcf-4055-b4da-01824ec9556b",
+          "consumer_patch_model:3433-90076185-1dcf-4055-b4da-01824ec9556b",
+          "consumer_patch_model:3926-90076185-1dcf-4055-b4da-01824ec9556b",
+          "consumer_patch_model:45407-90076185-1dcf-4055-b4da-01824ec9556b",
+          "consumer_patch_model:4679-90076185-1dcf-4055-b4da-01824ec9556b",
+          "consumer_patch_model:6047-90076185-1dcf-4055-b4da-01824ec9556b",
+          "patch_asset_instance_model:117065-90076185-1dcf-4055-b4da-01824ec9556b",
+          "producer_patch_model:24829-90076185-1dcf-4055-b4da-01824ec9556b",
+          "producer_patch_model:3003-90076185-1dcf-4055-b4da-01824ec9556b",
+          "producer_patch_model:3934-90076185-1dcf-4055-b4da-01824ec9556b",
+          "producer_patch_model:3936-90076185-1dcf-4055-b4da-01824ec9556b",
+          "producer_patch_model:3938-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:117069-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:117077-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:117081-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:117085-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:24823-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:24825-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:3211-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:3425-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:3429-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:3439-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:3922-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:3930-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:3940-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:3952-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:3956-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:4235-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:4237-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:4239-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:4649-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:4651-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:4653-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:4685-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:4693-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:50048-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:50508-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:55283-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:55287-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:55291-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:55295-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:55301-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:55307-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:55319-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:8197-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:8199-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:8209-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:8213-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:8711-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:8713-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:8717-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:8723-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:8725-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:8731-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:9231-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:9233-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:9235-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:9239-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:9241-90076185-1dcf-4055-b4da-01824ec9556b",
+          "template_patch_model:9249-90076185-1dcf-4055-b4da-01824ec9556b"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Time",
+        "identifier": "consumer_patch_model:117073-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "2_d_text_model:12969-90076185-1dcf-4055-b4da-01824ec9556b",
+        "objectProperty": "planar_text_text",
+        "position": [
+          884,
+          -148
+        ],
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "string",
+              "v": "5 Score"
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "GameOver",
+        "identifier": "consumer_patch_model:178723-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "composition_model:10853-90076185-1dcf-4055-b4da-01824ec9556b",
+        "objectProperty": "visible",
+        "position": [
+          548,
+          1268
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": false
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "speaker0",
+        "identifier": "consumer_patch_model:24827-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "audiosource:24819-90076185-1dcf-4055-b4da-01824ec9556b",
+        "objectProperty": "sound",
+        "position": [
+          908,
+          332
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "HiresSphere",
+        "identifier": "consumer_patch_model:3433-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "master3_d_object_model:2111-90076185-1dcf-4055-b4da-01824ec9556b",
+        "objectProperty": "position",
+        "position": [
+          1076,
+          44
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -0.000045679804316023365,
+                -0.12925000488758087,
+                -1.1920928955078125E-7
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "HiresSphere0",
+        "identifier": "consumer_patch_model:3926-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "master3_d_object_model:3510-90076185-1dcf-4055-b4da-01824ec9556b",
+        "objectProperty": "position",
+        "position": [
+          1052,
+          212
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                -0.3506599962711334,
+                -1.1920928955078125E-7
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Cylinder1",
+        "identifier": "consumer_patch_model:45407-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "master3_d_object_model:2880-90076185-1dcf-4055-b4da-01824ec9556b",
+        "objectProperty": "visible",
+        "position": [
+          2036,
+          692
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Cylinder",
+        "identifier": "consumer_patch_model:4679-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "master3_d_object_model:2378-90076185-1dcf-4055-b4da-01824ec9556b",
+        "objectProperty": "visible",
+        "position": [
+          2060,
+          452
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Cylinder0",
+        "identifier": "consumer_patch_model:6047-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "master3_d_object_model:2672-90076185-1dcf-4055-b4da-01824ec9556b",
+        "objectProperty": "visible",
+        "position": [
+          2036,
+          932
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "patch_asset_instance_model",
+        "name": "Simple Timer",
+        "identifier": "patch_asset_instance_model:117065-90076185-1dcf-4055-b4da-01824ec9556b",
+        "patchAsset": "patch_data_base_model:116343-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          236,
+          -268
+        ],
+        "values": [
+          {
+            "port": "12040300928214112754",
+            "value": {
+              "t": "double",
+              "v": 9000
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "Cannon Sound Effect.m4a",
+        "identifier": "producer_patch_model:24829-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "sound:23099-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          380,
+          308
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "HiresSphere",
+        "identifier": "producer_patch_model:3003-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "master3_d_object_model:2111-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -52,
+          68
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "Cylinder",
+        "identifier": "producer_patch_model:3934-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "master3_d_object_model:2378-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -148,
+          548
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "Cylinder0",
+        "identifier": "producer_patch_model:3936-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "master3_d_object_model:2672-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -172,
+          1004
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "Cylinder1",
+        "identifier": "producer_patch_model:3938-90076185-1dcf-4055-b4da-01824ec9556b",
+        "object": "master3_d_object_model:2880-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -172,
+          764
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "To String",
+        "identifier": "template_patch_model:117069-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          686.9663232765886,
+          -132.39104908198368
+        ],
+        "templateId": "builtin.toStringComponent",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:117077-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          548,
+          1412
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Stop",
+        "identifier": "template_patch_model:117081-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          836,
+          1412
+        ],
+        "templateId": "builtin.broadcast.emitter",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Stop",
+        "identifier": "template_patch_model:117085-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          68,
+          -220
+        ],
+        "templateId": "builtin.broadcast.receiver",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Audio Player",
+        "identifier": "template_patch_model:24823-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          740,
+          332
+        ],
+        "templateId": "builtin.audioPlayer"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Multi-Clip Controller",
+        "identifier": "template_patch_model:24825-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          380,
+          404
+        ],
+        "templateId": "builtin.audioOneShotController"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Object Tap",
+        "identifier": "template_patch_model:3211-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          92,
+          68
+        ],
+        "templateId": "builtin.sceneObjectTapGesture"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Animation",
+        "identifier": "template_patch_model:3425-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          476,
+          68
+        ],
+        "templateId": "builtin.group.animation"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:3429-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          716,
+          -4
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                -0.12925,
+                0
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                -0.12925,
+                -7.59417
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Delay",
+        "identifier": "template_patch_model:3439-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          260,
+          140
+        ],
+        "templateId": "builtin.delay",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 1
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:3922-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          716,
+          164
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                -0.35066,
+                0
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                -0.12925,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Global Transform",
+        "identifier": "template_patch_model:3930-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          52.743807018303116,
+          224.58007008339604
+        ],
+        "templateId": "builtin.sceneObjectGlobalTransformExtractionComponent"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Global Transform",
+        "identifier": "template_patch_model:3940-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -28,
+          524
+        ],
+        "templateId": "builtin.sceneObjectGlobalTransformExtractionComponent"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Less Than",
+        "identifier": "template_patch_model:3952-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          644,
+          524
+        ],
+        "templateId": "builtin.binaryScalarLtOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 0.2
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Distance",
+        "identifier": "template_patch_model:3956-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          284,
+          524
+        ],
+        "templateId": "builtin.mathDistance",
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Global Transform",
+        "identifier": "template_patch_model:4235-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -28,
+          740
+        ],
+        "templateId": "builtin.sceneObjectGlobalTransformExtractionComponent"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Less Than",
+        "identifier": "template_patch_model:4237-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          644,
+          740
+        ],
+        "templateId": "builtin.binaryScalarLtOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 0.2
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Distance",
+        "identifier": "template_patch_model:4239-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          284,
+          740
+        ],
+        "templateId": "builtin.mathDistance",
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Distance",
+        "identifier": "template_patch_model:4649-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          284,
+          1004
+        ],
+        "templateId": "builtin.mathDistance",
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Global Transform",
+        "identifier": "template_patch_model:4651-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -28,
+          1004
+        ],
+        "templateId": "builtin.sceneObjectGlobalTransformExtractionComponent"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Less Than",
+        "identifier": "template_patch_model:4653-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          644,
+          1004
+        ],
+        "templateId": "builtin.binaryScalarLtOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 0.2
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:4685-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1748,
+          428
+        ],
+        "templateId": "builtin.toggle"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Not",
+        "identifier": "template_patch_model:4693-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1892,
+          452
+        ],
+        "templateId": "builtin.negation"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Add",
+        "identifier": "template_patch_model:50048-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          140,
+          1268
+        ],
+        "templateId": "builtin.variadicMathAdd",
+        "variadicInfo": {
+          "input": 2
+        },
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Add",
+        "identifier": "template_patch_model:50508-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -4,
+          1268
+        ],
+        "templateId": "builtin.variadicMathAdd",
+        "variadicInfo": {
+          "input": 2
+        },
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "1",
+        "identifier": "template_patch_model:55283-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1316,
+          356
+        ],
+        "templateId": "builtin.broadcast.emitter",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "2",
+        "identifier": "template_patch_model:55287-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1436,
+          860
+        ],
+        "templateId": "builtin.broadcast.emitter",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "3",
+        "identifier": "template_patch_model:55291-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1484,
+          1076
+        ],
+        "templateId": "builtin.broadcast.emitter",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "1",
+        "identifier": "template_patch_model:55295-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -172,
+          1148
+        ],
+        "templateId": "builtin.broadcast.receiver",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "2",
+        "identifier": "template_patch_model:55301-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -172,
+          1244
+        ],
+        "templateId": "builtin.broadcast.receiver",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "3",
+        "identifier": "template_patch_model:55307-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          -172,
+          1340
+        ],
+        "templateId": "builtin.broadcast.receiver",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Greater Than",
+        "identifier": "template_patch_model:55319-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          308,
+          1268
+        ],
+        "templateId": "builtin.binaryScalarGtOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 4
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Counter",
+        "identifier": "template_patch_model:8197-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1028,
+          500
+        ],
+        "templateId": "builtin.counter"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:8199-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          884,
+          548
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Equals Exactly",
+        "identifier": "template_patch_model:8209-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1292,
+          476
+        ],
+        "templateId": "builtin.binaryScalarEqOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 2
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:8213-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1580,
+          476
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:8711-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1748,
+          668
+        ],
+        "templateId": "builtin.toggle"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Equals Exactly",
+        "identifier": "template_patch_model:8713-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1292,
+          716
+        ],
+        "templateId": "builtin.binaryScalarEqOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 2
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Counter",
+        "identifier": "template_patch_model:8717-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1028,
+          740
+        ],
+        "templateId": "builtin.counter"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:8723-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          860,
+          764
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Not",
+        "identifier": "template_patch_model:8725-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1892,
+          692
+        ],
+        "templateId": "builtin.negation"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:8731-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1580,
+          716
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:9231-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1724,
+          908
+        ],
+        "templateId": "builtin.toggle"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Counter",
+        "identifier": "template_patch_model:9233-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1004,
+          980
+        ],
+        "templateId": "builtin.counter"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:9235-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1556,
+          956
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Not",
+        "identifier": "template_patch_model:9239-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1868,
+          932
+        ],
+        "templateId": "builtin.negation"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:9241-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          860,
+          1028
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Equals Exactly",
+        "identifier": "template_patch_model:9249-90076185-1dcf-4055-b4da-01824ec9556b",
+        "position": [
+          1268,
+          956
+        ],
+        "templateId": "builtin.binaryScalarEqOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 2
+            }
+          }
+        ],
+        "variantInfo": "float"
+      }
+    ]
+  },
+  "children": [
+    {
+      "modelName": "fonts",
+      "identifier": "fonts:893-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "local_font_model",
+          "name": "Facebook Sans Bold",
+          "identifier": "local_font_model:10855-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetLocator": "10856-90076185-1dcf-4055-b4da-01824ec9556b",
+          "fontIdentity": "com.facebook.editor.fonts.facebooksans-bold",
+          "isExternalAsset": false
+        }
+      ]
+    },
+    {
+      "modelName": "textures",
+      "identifier": "textures:897-90076185-1dcf-4055-b4da-01824ec9556b",
+      "defaultEnvironmentTexture": "environment_texture_model:1233-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "texture",
+          "name": "office_diffuse",
+          "identifier": "texture:1206-90076185-1dcf-4055-b4da-01824ec9556b",
+          "alphaPremultiplicationMode": "none",
+          "assetLocator": "1207-90076185-1dcf-4055-b4da-01824ec9556b.png",
+          "colorEncoding": "rgbd",
+          "coordMapping": "equirectangular",
+          "exportConfigurations": [
+            "textureExportConfig:1209-90076185-1dcf-4055-b4da-01824ec9556b",
+            "textureExportConfig:1211-90076185-1dcf-4055-b4da-01824ec9556b",
+            "textureExportConfig:1213-90076185-1dcf-4055-b4da-01824ec9556b"
+          ],
+          "fileLocator": {
+            "path": "textures/DiffuseEnvironment.texture"
+          },
+          "height": 32,
+          "isExternalAsset": false,
+          "uWrapMode": "repeat",
+          "width": 64,
+          "children": [
+            {
+              "modelName": "data_texture_metadata_model",
+              "assetDataHash": "87798819e923aa7a1df352c412d6cf13",
+              "colorCount": 759,
+              "detectedAlphaChannel": "no_alpha",
+              "detectedOriginalFormat": "png",
+              "entropyOfDistribution": 9.103762231252079,
+              "pixelsHigh": 32,
+              "pixelsWide": 64
+            }
+          ]
+        },
+        {
+          "modelName": "texture",
+          "name": "office_preview",
+          "identifier": "texture:1215-90076185-1dcf-4055-b4da-01824ec9556b",
+          "alphaPremultiplicationMode": "none",
+          "assetLocator": "1216-90076185-1dcf-4055-b4da-01824ec9556b.png",
+          "coordMapping": "equirectangular",
+          "excludeDuringExport": true,
+          "exportConfigurations": [
+            "textureExportConfig:1218-90076185-1dcf-4055-b4da-01824ec9556b",
+            "textureExportConfig:1220-90076185-1dcf-4055-b4da-01824ec9556b",
+            "textureExportConfig:1222-90076185-1dcf-4055-b4da-01824ec9556b"
+          ],
+          "fileLocator": {
+            "path": "textures/PreviewEnvironment.texture"
+          },
+          "height": 256,
+          "isExternalAsset": false,
+          "uWrapMode": "repeat",
+          "width": 512
+        },
+        {
+          "modelName": "texture",
+          "name": "office_specular",
+          "identifier": "texture:1224-90076185-1dcf-4055-b4da-01824ec9556b",
+          "alphaPremultiplicationMode": "none",
+          "assetLocator": "1225-90076185-1dcf-4055-b4da-01824ec9556b.png",
+          "colorEncoding": "rgbd",
+          "coordMapping": "equirectangular",
+          "exportConfigurations": [
+            "textureExportConfig:1227-90076185-1dcf-4055-b4da-01824ec9556b",
+            "textureExportConfig:1229-90076185-1dcf-4055-b4da-01824ec9556b",
+            "textureExportConfig:1231-90076185-1dcf-4055-b4da-01824ec9556b"
+          ],
+          "fileLocator": {
+            "path": "textures/SpecularEnvironment.texture"
+          },
+          "filter": "trilinear",
+          "height": 256,
+          "isExternalAsset": false,
+          "uWrapMode": "repeat",
+          "width": 512,
+          "children": [
+            {
+              "modelName": "data_texture_metadata_model",
+              "assetDataHash": "d0ad2eb085ec23eaae4044c7d47a2ad4",
+              "colorCount": 44059,
+              "detectedAlphaChannel": "eight_bit_full_range",
+              "detectedOriginalFormat": "png",
+              "entropyOfDistribution": 14.411108935529327,
+              "pixelsHigh": 256,
+              "pixelsWide": 512
+            }
+          ]
+        },
+        {
+          "modelName": "environment_texture_model",
+          "name": "Default environment texture",
+          "identifier": "environment_texture_model:1233-90076185-1dcf-4055-b4da-01824ec9556b",
+          "diffuseEnvironmentTextureIdentifier": "texture:1206-90076185-1dcf-4055-b4da-01824ec9556b",
+          "previewEnvironmentTextureIdentifier": "texture:1215-90076185-1dcf-4055-b4da-01824ec9556b",
+          "specularEnvironmentTextureIdentifier": "texture:1224-90076185-1dcf-4055-b4da-01824ec9556b"
+        },
+        {
+          "modelName": "texture",
+          "name": "img-02(1)",
+          "identifier": "texture:14151-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetDataHash": "ca9fbf6448aee76a78bbd61d1ca6ca0b",
+          "assetLocator": "textures/img-02(1).png",
+          "fileLocator": {
+            "path": "textures/img-02(1).texture"
+          },
+          "height": 376,
+          "isExternalAsset": true,
+          "width": 455,
+          "children": [
+            {
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "assetDataHash": "ca9fbf6448aee76a78bbd61d1ca6ca0b",
+              "colorCount": 177,
+              "detectedAlphaChannel": "eight_bit_full_range",
+              "detectedOriginalFormat": "png",
+              "entropyOfDistribution": 5.119863476478424,
+              "pixelsHigh": 376,
+              "pixelsWide": 455
+            }
+          ]
+        },
+        {
+          "modelName": "texture",
+          "name": "pngtree-iftar-party-ramadan-kareem-stock-vector-illustration-png-image_6178433",
+          "identifier": "texture:16753-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetDataHash": "76257712e4791bd26ef0dbc04de8083b",
+          "assetLocator": "textures/pngtree-iftar-party-ramadan-kareem-stock-vector-illustration-png-image_6178433.png",
+          "fileLocator": {
+            "path": "textures/pngtree-iftar-party-ramadan-kareem-stock-vector-illustration-png-image_6178433.texture"
+          },
+          "height": 1024,
+          "isExternalAsset": true,
+          "width": 1024,
+          "children": [
+            {
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "assetDataHash": "76257712e4791bd26ef0dbc04de8083b",
+              "colorCount": 29809,
+              "detectedAlphaChannel": "eight_bit_full_range",
+              "detectedOriginalFormat": "png",
+              "entropyOfDistribution": 4.42384476436266,
+              "pixelsHigh": 1024,
+              "pixelsWide": 1024
+            }
+          ]
+        },
+        {
+          "modelName": "texture",
+          "name": "images",
+          "identifier": "texture:19775-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetDataHash": "60eaa4592dcac0431994c7644044e85a",
+          "assetLocator": "textures/images.jpeg",
+          "fileLocator": {
+            "path": "textures/images.texture"
+          },
+          "height": 183,
+          "isExternalAsset": true,
+          "width": 276,
+          "children": [
+            {
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "assetDataHash": "60eaa4592dcac0431994c7644044e85a",
+              "colorCount": 18752,
+              "detectedAlphaChannel": "no_alpha",
+              "detectedOriginalFormat": "jpeg",
+              "entropyOfDistribution": 12.305722420483216,
+              "pixelsHigh": 183,
+              "pixelsWide": 276
+            }
+          ]
+        },
+        {
+          "modelName": "texture",
+          "name": "1_tM3JO0Rq4Xz4IW1KMbMgOA",
+          "identifier": "texture:22261-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetDataHash": "ff3416c620a67218c9052378825276b7",
+          "assetLocator": "textures/1_tM3JO0Rq4Xz4IW1KMbMgOA.jpg",
+          "fileLocator": {
+            "path": "textures/1_tM3JO0Rq4Xz4IW1KMbMgOA.texture"
+          },
+          "height": 436,
+          "isExternalAsset": true,
+          "width": 1024,
+          "children": [
+            {
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "assetDataHash": "ff3416c620a67218c9052378825276b7",
+              "colorCount": 54758,
+              "detectedAlphaChannel": "no_alpha",
+              "detectedOriginalFormat": "jpeg",
+              "entropyOfDistribution": 13.647112826752856,
+              "pixelsHigh": 436,
+              "pixelsWide": 1024
+            }
+          ]
+        },
+        {
+          "modelName": "texture",
+          "name": "Back",
+          "identifier": "texture:38066-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetDataHash": "60e6da8ca01a7a706b2533b97990b26e",
+          "assetLocator": "textures/Back.jpg",
+          "fileLocator": {
+            "path": "textures/Back.texture"
+          },
+          "height": 814,
+          "isExternalAsset": true,
+          "width": 564,
+          "children": [
+            {
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "assetDataHash": "60e6da8ca01a7a706b2533b97990b26e",
+              "colorCount": 31817,
+              "detectedAlphaChannel": "no_alpha",
+              "detectedOriginalFormat": "jpeg",
+              "entropyOfDistribution": 11.336857259029225,
+              "pixelsHigh": 814,
+              "pixelsWide": 564
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "materials",
+      "identifier": "materials:899-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "dependent_metallic_roughness_p_b_r_material_model",
+          "name": "HiresSphere_mat",
+          "identifier": "dependent_metallic_roughness_p_b_r_material_model:1188-90076185-1dcf-4055-b4da-01824ec9556b",
+          "sourceIdentifier": "asset_collection_model:1204-90076185-1dcf-4055-b4da-01824ec9556b",
+          "baseColorFactor": "0xff171413",
+          "environmentEnabled": true,
+          "environmentTextureName": "environment_texture_model:1233-90076185-1dcf-4055-b4da-01824ec9556b",
+          "fileLocator": {
+            "path": "objects/HiresSphere/HiresSphere_mat.material"
+          },
+          "metallicFactor": 1,
+          "roughnessFactor": 0.2592877447605133,
+          "vertexColorEnabled": true
+        },
+        {
+          "modelName": "metallicRoughnessPbrMaterial",
+          "name": "Cylinder_mat",
+          "identifier": "metallicRoughnessPbrMaterial:21845-90076185-1dcf-4055-b4da-01824ec9556b",
+          "baseColorTextureName": "texture:38066-90076185-1dcf-4055-b4da-01824ec9556b",
+          "fileLocator": {
+            "path": "materials/Cylinder_mat.material"
+          },
+          "isBaseColorTextureIdentifierEnabled": true,
+          "roughnessFactor": 0.38844332098960876
+        },
+        {
+          "modelName": "defaultMaterial",
+          "name": "material0",
+          "identifier": "defaultMaterial:14555-90076185-1dcf-4055-b4da-01824ec9556b",
+          "diffuseTextureName": "texture:14151-90076185-1dcf-4055-b4da-01824ec9556b",
+          "fileLocator": {
+            "path": "materials/material0.material"
+          },
+          "isDiffuseTextureIdentifierEnabled": true,
+          "lightingEnabled": true
+        },
+        {
+          "modelName": "defaultMaterial",
+          "name": "material1",
+          "identifier": "defaultMaterial:38972-90076185-1dcf-4055-b4da-01824ec9556b",
+          "diffuseTextureName": "texture:38066-90076185-1dcf-4055-b4da-01824ec9556b",
+          "fileLocator": {
+            "path": "materials/material1-2.material"
+          },
+          "isDiffuseTextureIdentifierEnabled": true
+        }
+      ]
+    },
+    {
+      "modelName": "prefabs",
+      "identifier": "prefabs:901-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "gltf",
+          "name": "HiresSphere",
+          "identifier": "gltf:1194-90076185-1dcf-4055-b4da-01824ec9556b",
+          "sourceIdentifier": "master3_d_object_model:1200-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetLocator": "1195-90076185-1dcf-4055-b4da-01824ec9556b.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder",
+          "identifier": "gltf:1699-90076185-1dcf-4055-b4da-01824ec9556b",
+          "sourceIdentifier": "master3_d_object_model:1705-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetLocator": "1700-90076185-1dcf-4055-b4da-01824ec9556b.glb",
+          "isExternalAsset": false
+        }
+      ]
+    },
+    {
+      "modelName": "3_d_objects_model",
+      "identifier": "3_d_objects_model:903-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "master3_d_object_model",
+          "name": "HiresSphere",
+          "identifier": "master3_d_object_model:1200-90076185-1dcf-4055-b4da-01824ec9556b",
+          "sourceIdentifier": "asset_collection_model:1204-90076185-1dcf-4055-b4da-01824ec9556b",
+          "depth": 0.04972612112760544,
+          "fileLocator": {
+            "path": "objects/HiresSphere/HiresSphere.object"
+          },
+          "height": 0.04999999701976776,
+          "layerIdentifier": "layer1",
+          "width": 0.050000011920928955,
+          "children": [
+            {
+              "modelName": "mesh",
+              "name": "HiresSphere",
+              "identifier": "mesh:1190-90076185-1dcf-4055-b4da-01824ec9556b",
+              "layerIdentifier": "layer1",
+              "nodeName": "HiresSphere",
+              "numberOfFaces": 1740,
+              "prefabIdentifier": "gltf:1194-90076185-1dcf-4055-b4da-01824ec9556b",
+              "children": [
+                {
+                  "modelName": "surfaces",
+                  "identifier": "surfaces:1192-90076185-1dcf-4055-b4da-01824ec9556b",
+                  "children": [
+                    {
+                      "modelName": "surface",
+                      "name": "surface0",
+                      "identifier": "surface:1197-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1188-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "surfaceGroupIdentifier": "1198-90076185-1dcf-4055-b4da-01824ec9556b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "master3_d_object_model",
+          "name": "Cylinder",
+          "identifier": "master3_d_object_model:1705-90076185-1dcf-4055-b4da-01824ec9556b",
+          "sourceIdentifier": "asset_collection_model:1709-90076185-1dcf-4055-b4da-01824ec9556b",
+          "depth": 0.050000015646219254,
+          "fileLocator": {
+            "path": "objects/Cylinder/Cylinder.object"
+          },
+          "height": 0.04999999701976776,
+          "layerIdentifier": "layer1",
+          "width": 0.05000000447034836,
+          "children": [
+            {
+              "modelName": "mesh",
+              "name": "Cylinder",
+              "identifier": "mesh:1695-90076185-1dcf-4055-b4da-01824ec9556b",
+              "layerIdentifier": "layer1",
+              "nodeName": "Cylinder",
+              "numberOfFaces": 80,
+              "prefabIdentifier": "gltf:1699-90076185-1dcf-4055-b4da-01824ec9556b",
+              "children": [
+                {
+                  "modelName": "surfaces",
+                  "identifier": "surfaces:1697-90076185-1dcf-4055-b4da-01824ec9556b",
+                  "children": [
+                    {
+                      "modelName": "surface",
+                      "name": "surface0",
+                      "identifier": "surface:1702-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1693-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "surfaceGroupIdentifier": "1703-90076185-1dcf-4055-b4da-01824ec9556b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "scene",
+      "identifier": "scene:905-90076185-1dcf-4055-b4da-01824ec9556b",
+      "fileLocator": {
+        "path": "RamadanMubarakFilter.scene"
+      },
+      "children": [
+        {
+          "modelName": "device",
+          "name": "Device",
+          "identifier": "device:961-90076185-1dcf-4055-b4da-01824ec9556b",
+          "layerIdentifier": "layer0",
+          "children": [
+            {
+              "modelName": "camera",
+              "name": "Camera",
+              "identifier": "camera:963-90076185-1dcf-4055-b4da-01824ec9556b",
+              "layerIdentifier": "layer0",
+              "updateSource": "world_tracker",
+              "children": [
+                {
+                  "modelName": "focalDistance",
+                  "name": "Focal Distance",
+                  "identifier": "focalDistance:965-90076185-1dcf-4055-b4da-01824ec9556b",
+                  "layerIdentifier": "layer0",
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": -0.5361266732215881
+                  },
+                  "children": [
+                    {
+                      "modelName": "ambient_light_source_model",
+                      "name": "ambientLight0",
+                      "identifier": "ambient_light_source_model:971-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "layerIdentifier": "layer0"
+                    },
+                    {
+                      "modelName": "directional_light_source_model",
+                      "name": "directionalLight0",
+                      "identifier": "directional_light_source_model:973-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "intensity": 0.800000011920929,
+                      "layerIdentifier": "layer0",
+                      "transform": {
+                        "rx": -0.7853981633974483,
+                        "ry": 0.08726646259971647,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0.03,
+                        "y": 0.25,
+                        "z": 0.3
+                      }
+                    },
+                    {
+                      "modelName": "composition_model",
+                      "name": "GameOver",
+                      "identifier": "composition_model:10853-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "height": 844,
+                      "hidden": true,
+                      "layerIdentifier": "layer1",
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 0.0005924170836806297,
+                        "sy": 0.0005924170836806297,
+                        "sz": 0.0005924170836806297,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "width": 390,
+                      "children": [
+                        {
+                          "modelName": "rectangle_model",
+                          "name": "rectangle0",
+                          "identifier": "rectangle_model:37168-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "height": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 926
+                          },
+                          "layerIdentifier": "layer1",
+                          "materialIdentifier": "defaultMaterial:38972-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "pinnedLeft": true,
+                          "pinnedTop": true,
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 1,
+                            "sz": 1,
+                            "x": 0,
+                            "y": 0,
+                            "z": -0.00006103515625
+                          },
+                          "width": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 428
+                          }
+                        },
+                        {
+                          "modelName": "2_d_text_model",
+                          "name": "Win",
+                          "identifier": "2_d_text_model:10851-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "color": "0xfff6c210",
+                          "fontIdentifier": "local_font_model:10855-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "fontSize": 36,
+                          "height": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 115
+                          },
+                          "layerIdentifier": "layer1",
+                          "pinnedLeft": true,
+                          "pinnedLeftValue": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 51
+                          },
+                          "pinnedTop": true,
+                          "pinnedTopValue": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 317
+                          },
+                          "text": "Ramadan Cannon ",
+                          "transform": {
+                            "rx": 0,
+                            "ry": -0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 1,
+                            "sz": 1,
+                            "x": 51,
+                            "y": 317,
+                            "z": 0.00006103515625
+                          },
+                          "width": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 314
+                          }
+                        },
+                        {
+                          "modelName": "2_d_text_model",
+                          "name": "des",
+                          "identifier": "2_d_text_model:12574-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "color": "0xfff6c210",
+                          "fontIdentifier": "local_font_model:10855-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "fontSize": 36,
+                          "layerIdentifier": "layer1",
+                          "pinnedLeft": true,
+                          "pinnedLeftValue": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 127
+                          },
+                          "pinnedTop": true,
+                          "pinnedTopValue": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 383
+                          },
+                          "text": "Your Score",
+                          "transform": {
+                            "rx": 0,
+                            "ry": -0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 1,
+                            "sz": 1,
+                            "x": 127,
+                            "y": 383,
+                            "z": 0.00006103515625
+                          },
+                          "width": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 151
+                          }
+                        },
+                        {
+                          "modelName": "2_d_text_model",
+                          "name": "Time",
+                          "identifier": "2_d_text_model:12969-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "color": "0xfff6c210",
+                          "fontIdentifier": "local_font_model:10855-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "fontSize": 36,
+                          "layerIdentifier": "layer1",
+                          "pinnedLeft": true,
+                          "pinnedLeftValue": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 127
+                          },
+                          "pinnedTop": true,
+                          "pinnedTopValue": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 446
+                          },
+                          "text": "5 Score",
+                          "transform": {
+                            "rx": 0,
+                            "ry": -0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 1,
+                            "sz": 1,
+                            "x": 127,
+                            "y": 446,
+                            "z": 0.00006103515625
+                          },
+                          "width": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 151
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "modelName": "3_d_object_instance_model",
+                      "name": "HiresSphere",
+                      "identifier": "master3_d_object_model:2111-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "sourceIdentifier": "master3_d_object_model:1200-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "depth": 0.04972612112760544,
+                      "height": 0.04999999701976776,
+                      "layerIdentifier": "layer0",
+                      "transform": {
+                        "rx": 2.9802322387695312E-8,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 0.9999999403953552,
+                        "sz": 1,
+                        "x": -0.000045679804316023365,
+                        "y": -0.12925000488758087,
+                        "z": -1.1920928955078125E-7
+                      },
+                      "width": 0.050000011920928955,
+                      "children": [
+                        {
+                          "modelName": "mesh",
+                          "name": "HiresSphere",
+                          "identifier": "mesh:2124-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "sourceIdentifier": "mesh:1190-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "layerIdentifier": "layer0",
+                          "nodeName": "HiresSphere",
+                          "numberOfFaces": 1740,
+                          "prefabIdentifier": "gltf:1194-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "children": [
+                            {
+                              "modelName": "surfaces",
+                              "identifier": "surfaces:2127-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "sourceIdentifier": "surfaces:1192-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "children": [
+                                {
+                                  "modelName": "surface",
+                                  "name": "surface0",
+                                  "identifier": "surface:2130-90076185-1dcf-4055-b4da-01824ec9556b",
+                                  "sourceIdentifier": "surface:1197-90076185-1dcf-4055-b4da-01824ec9556b",
+                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1188-90076185-1dcf-4055-b4da-01824ec9556b",
+                                  "surfaceGroupIdentifier": "1198-90076185-1dcf-4055-b4da-01824ec9556b"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "audiosource",
+                          "name": "speaker0",
+                          "identifier": "audiosource:23521-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "backedByPlaybackController": true,
+                          "layerIdentifier": "layer1",
+                          "playbackControllerIdentifier": "playback_controller_model:22679-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "sound": "sound:23099-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "type": "playback_controller",
+                          "children": [
+                            {
+                              "modelName": "audioTransforms",
+                              "identifier": "audioTransforms:23523-90076185-1dcf-4055-b4da-01824ec9556b"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "modelName": "3_d_object_instance_model",
+                      "name": "HiresSphere0",
+                      "identifier": "master3_d_object_model:3510-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "sourceIdentifier": "master3_d_object_model:1200-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "depth": 0.04972612112760544,
+                      "height": 0.04999999701976776,
+                      "layerIdentifier": "layer0",
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": -0.3506599962711334,
+                        "z": -1.1920928955078125E-7
+                      },
+                      "width": 0.050000011920928955,
+                      "children": [
+                        {
+                          "modelName": "mesh",
+                          "name": "HiresSphere",
+                          "identifier": "mesh:3513-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "sourceIdentifier": "mesh:1190-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "layerIdentifier": "layer0",
+                          "nodeName": "HiresSphere",
+                          "numberOfFaces": 1740,
+                          "prefabIdentifier": "gltf:1194-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "children": [
+                            {
+                              "modelName": "surfaces",
+                              "identifier": "surfaces:3516-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "sourceIdentifier": "surfaces:1192-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "children": [
+                                {
+                                  "modelName": "surface",
+                                  "name": "surface0",
+                                  "identifier": "surface:3519-90076185-1dcf-4055-b4da-01824ec9556b",
+                                  "sourceIdentifier": "surface:1197-90076185-1dcf-4055-b4da-01824ec9556b",
+                                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1188-90076185-1dcf-4055-b4da-01824ec9556b",
+                                  "surfaceGroupIdentifier": "1198-90076185-1dcf-4055-b4da-01824ec9556b"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "modelName": "composition_model",
+                      "name": "canvas1",
+                      "identifier": "composition_model:14959-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "height": 844,
+                      "layerIdentifier": "layer0",
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 0.0005924170836806297,
+                        "sy": 0.0005924170836806297,
+                        "sz": 0.0005924170836806297,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "width": 390,
+                      "children": [
+                        {
+                          "modelName": "rectangle_model",
+                          "name": "rectangle0",
+                          "identifier": "rectangle_model:14551-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "height": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 265
+                          },
+                          "layerIdentifier": "layer0",
+                          "materialIdentifier": "defaultMaterial:14555-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "pinnedLeft": true,
+                          "pinnedLeftValue": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 13
+                          },
+                          "pinnedTop": true,
+                          "pinnedTopValue": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 637
+                          },
+                          "transform": {
+                            "rx": -3.725290298461914E-9,
+                            "ry": -0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 1,
+                            "sz": 1,
+                            "x": 13,
+                            "y": 637,
+                            "z": 0.00006103515625
+                          },
+                          "width": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 191
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "modelName": "audiosource",
+                      "name": "speaker0",
+                      "identifier": "audiosource:24819-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "layerIdentifier": "layer1",
+                      "children": [
+                        {
+                          "modelName": "audioTransforms",
+                          "identifier": "audioTransforms:24821-90076185-1dcf-4055-b4da-01824ec9556b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "microphone_model",
+              "name": "Microphone",
+              "identifier": "microphone_model:967-90076185-1dcf-4055-b4da-01824ec9556b",
+              "layerIdentifier": "layer0"
+            }
+          ]
+        },
+        {
+          "modelName": "plane_tracker_model",
+          "name": "planeTracker0",
+          "identifier": "plane_tracker_model:1883-90076185-1dcf-4055-b4da-01824ec9556b",
+          "cameraVisibility": "back",
+          "layerIdentifier": "layer0",
+          "children": [
+            {
+              "modelName": "sceneObject",
+              "name": "Target",
+              "identifier": "sceneObject:6061-90076185-1dcf-4055-b4da-01824ec9556b",
+              "layerIdentifier": "layer0",
+              "children": [
+                {
+                  "modelName": "3_d_object_instance_model",
+                  "name": "Cylinder",
+                  "identifier": "master3_d_object_model:2378-90076185-1dcf-4055-b4da-01824ec9556b",
+                  "sourceIdentifier": "master3_d_object_model:1705-90076185-1dcf-4055-b4da-01824ec9556b",
+                  "depth": 0.050000015646219254,
+                  "height": 0.04999999701976776,
+                  "layerIdentifier": "layer0",
+                  "transform": {
+                    "rx": 1.5707963705062866,
+                    "ry": -0,
+                    "rz": 0,
+                    "sx": 7.999999523162842,
+                    "sy": 1,
+                    "sz": 8,
+                    "x": -0.2714662253856659,
+                    "y": 0.4672049283981323,
+                    "z": -0.47527921199798584
+                  },
+                  "width": 0.05000000447034836,
+                  "children": [
+                    {
+                      "modelName": "mesh",
+                      "name": "Cylinder",
+                      "identifier": "mesh:2398-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "sourceIdentifier": "mesh:1695-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "layerIdentifier": "layer0",
+                      "nodeName": "Cylinder",
+                      "numberOfFaces": 80,
+                      "prefabIdentifier": "gltf:1699-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "children": [
+                        {
+                          "modelName": "surfaces",
+                          "identifier": "surfaces:2401-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "sourceIdentifier": "surfaces:1697-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "children": [
+                            {
+                              "modelName": "surface",
+                              "name": "surface0",
+                              "identifier": "surface:2404-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "sourceIdentifier": "surface:1702-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "materialIdentifier": "metallicRoughnessPbrMaterial:21845-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "surfaceGroupIdentifier": "1703-90076185-1dcf-4055-b4da-01824ec9556b"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "3_d_object_instance_model",
+                  "name": "Cylinder0",
+                  "identifier": "master3_d_object_model:2672-90076185-1dcf-4055-b4da-01824ec9556b",
+                  "sourceIdentifier": "master3_d_object_model:1705-90076185-1dcf-4055-b4da-01824ec9556b",
+                  "depth": 0.050000015646219254,
+                  "height": 0.04999999701976776,
+                  "layerIdentifier": "layer0",
+                  "transform": {
+                    "rx": 1.5707963705062866,
+                    "ry": -0,
+                    "rz": 0,
+                    "sx": 7.999999523162842,
+                    "sy": 1,
+                    "sz": 8,
+                    "x": -0.13875621557235718,
+                    "y": 1.8948462009429932,
+                    "z": -2.8094654083251953
+                  },
+                  "width": 0.05000000447034836,
+                  "children": [
+                    {
+                      "modelName": "mesh",
+                      "name": "Cylinder",
+                      "identifier": "mesh:2675-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "sourceIdentifier": "mesh:1695-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "layerIdentifier": "layer0",
+                      "nodeName": "Cylinder",
+                      "numberOfFaces": 80,
+                      "prefabIdentifier": "gltf:1699-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "children": [
+                        {
+                          "modelName": "surfaces",
+                          "identifier": "surfaces:2678-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "sourceIdentifier": "surfaces:1697-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "children": [
+                            {
+                              "modelName": "surface",
+                              "name": "surface0",
+                              "identifier": "surface:2681-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "sourceIdentifier": "surface:1702-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "materialIdentifier": "metallicRoughnessPbrMaterial:21845-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "surfaceGroupIdentifier": "1703-90076185-1dcf-4055-b4da-01824ec9556b"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "3_d_object_instance_model",
+                  "name": "Cylinder1",
+                  "identifier": "master3_d_object_model:2880-90076185-1dcf-4055-b4da-01824ec9556b",
+                  "sourceIdentifier": "master3_d_object_model:1705-90076185-1dcf-4055-b4da-01824ec9556b",
+                  "depth": 0.050000015646219254,
+                  "height": 0.04999999701976776,
+                  "layerIdentifier": "layer0",
+                  "transform": {
+                    "rx": 1.5707963705062866,
+                    "ry": -0,
+                    "rz": 0,
+                    "sx": 7.999999523162842,
+                    "sy": 1,
+                    "sz": 8,
+                    "x": 0.5964644551277161,
+                    "y": 0.8161791563034058,
+                    "z": -1.5513852834701538
+                  },
+                  "width": 0.05000000447034836,
+                  "children": [
+                    {
+                      "modelName": "mesh",
+                      "name": "Cylinder",
+                      "identifier": "mesh:2883-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "sourceIdentifier": "mesh:1695-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "layerIdentifier": "layer0",
+                      "nodeName": "Cylinder",
+                      "numberOfFaces": 80,
+                      "prefabIdentifier": "gltf:1699-90076185-1dcf-4055-b4da-01824ec9556b",
+                      "children": [
+                        {
+                          "modelName": "surfaces",
+                          "identifier": "surfaces:2886-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "sourceIdentifier": "surfaces:1697-90076185-1dcf-4055-b4da-01824ec9556b",
+                          "children": [
+                            {
+                              "modelName": "surface",
+                              "name": "surface0",
+                              "identifier": "surface:2889-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "sourceIdentifier": "surface:1702-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "materialIdentifier": "metallicRoughnessPbrMaterial:21845-90076185-1dcf-4055-b4da-01824ec9556b",
+                              "surfaceGroupIdentifier": "1703-90076185-1dcf-4055-b4da-01824ec9556b"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "layers",
+      "identifier": "layers:907-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "layer",
+          "name": "layer2",
+          "identifier": "layer:237361-90076185-1dcf-4055-b4da-01824ec9556b",
+          "color": "0xfff25269",
+          "generationIndex": 2
+        },
+        {
+          "modelName": "layer",
+          "name": "layer1",
+          "identifier": "layer:12097-90076185-1dcf-4055-b4da-01824ec9556b",
+          "color": "0xffeb7dbd",
+          "generationIndex": 1
+        },
+        {
+          "modelName": "layer",
+          "name": "layer0",
+          "identifier": "layer:969-90076185-1dcf-4055-b4da-01824ec9556b",
+          "color": "0xff8c72ca"
+        }
+      ]
+    },
+    {
+      "modelName": "asset_collections_model",
+      "identifier": "asset_collections_model:911-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "asset_collection_model",
+          "name": "HiresSphere",
+          "identifier": "asset_collection_model:1204-90076185-1dcf-4055-b4da-01824ec9556b",
+          "applicationData": [],
+          "assetDataHash": "adb002820843bc32f181c40f61e8bc81",
+          "assetLocator": "objects/HiresSphere/HiresSphere.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v1.0.5",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/facebook/three_d_object/216224789630166",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "adb002820843bc32f181c40f61e8bc81",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:1202-90076185-1dcf-4055-b4da-01824ec9556b",
+              "namesForFeatureType": {
+                "Material": [
+                  "HiresSphere_mat"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "Cylinder",
+          "identifier": "asset_collection_model:1709-90076185-1dcf-4055-b4da-01824ec9556b",
+          "applicationData": [],
+          "assetDataHash": "fb1b679b3226b8b3ef1fce8e38f670f7",
+          "assetLocator": "objects/Cylinder/Cylinder.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v0.9.36",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/facebook/three_d_object/741967709609415",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "fb1b679b3226b8b3ef1fce8e38f670f7",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:1707-90076185-1dcf-4055-b4da-01824ec9556b",
+              "namesForFeatureType": {
+                "Material": [
+                  "Cylinder_mat"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "patch_assets_model",
+      "identifier": "patch_assets_model:917-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "patch_data_base_model",
+          "name": "Simple Timer",
+          "identifier": "patch_data_base_model:116343-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetDataHash": "fe1c3676fc0118cd8f27132faf2d6b93",
+          "assetLocator": "patches/Simple Timer.arp",
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "scripts_model",
+      "identifier": "scripts_model:923-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "script_bridging_variables_model",
+          "identifier": "script_bridging_variables_model:925-90076185-1dcf-4055-b4da-01824ec9556b"
+        }
+      ]
+    },
+    {
+      "modelName": "bundled_packages_model",
+      "identifier": "bundled_packages_model:931-90076185-1dcf-4055-b4da-01824ec9556b"
+    },
+    {
+      "modelName": "exportConfig",
+      "identifier": "exportConfig:935-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1209-90076185-1dcf-4055-b4da-01824ec9556b",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1211-90076185-1dcf-4055-b4da-01824ec9556b",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1213-90076185-1dcf-4055-b4da-01824ec9556b",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1218-90076185-1dcf-4055-b4da-01824ec9556b",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1220-90076185-1dcf-4055-b4da-01824ec9556b",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1222-90076185-1dcf-4055-b4da-01824ec9556b",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1227-90076185-1dcf-4055-b4da-01824ec9556b",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1229-90076185-1dcf-4055-b4da-01824ec9556b",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1231-90076185-1dcf-4055-b4da-01824ec9556b",
+          "accuracy": "best",
+          "targetFormat": 1
+        }
+      ]
+    },
+    {
+      "modelName": "manifest",
+      "identifier": "manifest:937-90076185-1dcf-4055-b4da-01824ec9556b",
+      "additionalEnabledChanges": null,
+      "assistantAppIDs": [
+        "2320137961422959"
+      ],
+      "assistantClientToken": null,
+      "assistantIncludeInDevelopmentArtifacts": false,
+      "assistantQuickTestEnabled": true,
+      "assistantStorageEnabled": true,
+      "assistantUseWit": false,
+      "audioEnableAudioGraphComponents": false,
+      "audioEnableAudioTransformationsApi": false,
+      "bodyTrackingMinVersion": 101,
+      "cameraControlDefaultCameraFacing": "unspecified",
+      "dynamicTextAltitude": false,
+      "dynamicTextDate": false,
+      "dynamicTextLocation": false,
+      "dynamicTextTranslation": false,
+      "dynamicTextWeather": false,
+      "effectDisablesAudioPreview": false,
+      "effectDisablesMicrophone": false,
+      "effectForceAsyncScripting": false,
+      "effectForcesSynchronousScripting": false,
+      "effectHasAmbientAudio": false,
+      "effectHasAudioGraphApi": false,
+      "effectHasTriggeredAudio": true,
+      "effectImageAntiAliasingEdgeSharpness": 0.5,
+      "effectImageAntiAliasingEdgeThreshold": 0.5,
+      "effectImageAntiAliasingTechnique": "fxaa",
+      "effectPbrClearcoatMaterialExtension": false,
+      "effectPbrIorMaterialExtension": false,
+      "effectPbrSheenMaterialExtension": false,
+      "effectPbrSpecularMaterialExtension": false,
+      "effectPbrTransmissionMaterialExtension": false,
+      "effectRecordingFromMic": false,
+      "effectUses3DModelAssets": false,
+      "effectUses4KTextures": false,
+      "effectUsesAheadOfTimeShaders": false,
+      "effectUsesAnimationPlaybackController": false,
+      "effectUsesAnimationScriptingModule": false,
+      "effectUsesAppLauncher": false,
+      "effectUsesAssistant": false,
+      "effectUsesAudio": true,
+      "effectUsesAudioLegacyMicFork": false,
+      "effectUsesAudioMixer": false,
+      "effectUsesAudioSpatialEmitter": false,
+      "effectUsesAudioTimestamps": false,
+      "effectUsesAugmentAdjacency": false,
+      "effectUsesAugmentControl": false,
+      "effectUsesAugmentGrouping": false,
+      "effectUsesAugmentSharableConfig": false,
+      "effectUsesAugmentSizeControl": false,
+      "effectUsesAutomaticAlphaSort": false,
+      "effectUsesAutomaticInstructions": true,
+      "effectUsesBlockModulesConfigExtras": false,
+      "effectUsesBlocks": false,
+      "effectUsesBlocksDownloadable": false,
+      "effectUsesBlocksScripting": false,
+      "effectUsesBodyTracking": false,
+      "effectUsesBodyTracking2DKeyPoints": false,
+      "effectUsesBoundingBoxScripting": false,
+      "effectUsesBoundingBoxUtilities": false,
+      "effectUsesCameraControl": false,
+      "effectUsesCameraInfoScriptingModule": false,
+      "effectUsesCameraShare": false,
+      "effectUsesComponentEvaluation": true,
+      "effectUsesComposedLocally": false,
+      "effectUsesComposedMaterial": false,
+      "effectUsesControllers": false,
+      "effectUsesCustomEngineSDK": false,
+      "effectUsesCustomFonts": false,
+      "effectUsesCustomMaterial": false,
+      "effectUsesCustomMaterialAndShaderCodeAsset": false,
+      "effectUsesCustomPipeline": false,
+      "effectUsesDSP": false,
+      "effectUsesDate": false,
+      "effectUsesDebugPatch": false,
+      "effectUsesDeltaTime": false,
+      "effectUsesDepth": false,
+      "effectUsesDepthData": false,
+      "effectUsesDepthShaderRead": false,
+      "effectUsesDeviceMotion": true,
+      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDirectionalLightEstimation": false,
+      "effectUsesDspAudioAnalyzer": false,
+      "effectUsesDspBitCrusher": false,
+      "effectUsesDspCompressor": false,
+      "effectUsesDspDelay": false,
+      "effectUsesDspDenoiser": false,
+      "effectUsesDspDistortion": false,
+      "effectUsesDspEnergyMeter": false,
+      "effectUsesDspModulator": false,
+      "effectUsesDspParametricEqualizer": false,
+      "effectUsesDspPitchShifter": false,
+      "effectUsesDspReverb": false,
+      "effectUsesDspVocoder": false,
+      "effectUsesDynamicCapabilities": false,
+      "effectUsesDynamicInstructions": false,
+      "effectUsesDynamicScriptProperties": false,
+      "effectUsesDynamicText": false,
+      "effectUsesEmbeddedVideo": false,
+      "effectUsesEnvironmentTexturePatch": false,
+      "effectUsesExperienceControl": false,
+      "effectUsesExternalBlocks": false,
+      "effectUsesExternalFonts": false,
+      "effectUsesExternalMusicSelection": false,
+      "effectUsesExternalTextures": false,
+      "effectUsesExternalTexturesAudio": false,
+      "effectUsesExternalVideo": false,
+      "effectUsesExternalVideoStream": false,
+      "effectUsesFBA": false,
+      "effectUsesFaceDistortion": false,
+      "effectUsesFaceExpression52Blendshapes": false,
+      "effectUsesFaceExpressionExperimental": false,
+      "effectUsesFaceExpressionFitting": false,
+      "effectUsesFaceExtraction": false,
+      "effectUsesFaceTracker": false,
+      "effectUsesFaceTracker3D": false,
+      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTrackingScripting2D": false,
+      "effectUsesFaceTrueScale": false,
+      "effectUsesFaceWave": false,
+      "effectUsesFacialExpressionRecognition": false,
+      "effectUsesFacialGestureRecognition": false,
+      "effectUsesFieldOfView": false,
+      "effectUsesFingerTracking": false,
+      "effectUsesFonts": true,
+      "effectUsesFormFactor": false,
+      "effectUsesFrameBrightness": false,
+      "effectUsesGalleryPicker": false,
+      "effectUsesGenericML": false,
+      "effectUsesGlobalTransform": false,
+      "effectUsesGlslEs300Features": false,
+      "effectUsesGltfPbrShader": false,
+      "effectUsesGraphQL": false,
+      "effectUsesHairSegmentation": false,
+      "effectUsesHalfFloatRenderPass": false,
+      "effectUsesHandGestureKeypoints": false,
+      "effectUsesHandTracker": false,
+      "effectUsesHapticFeedback": false,
+      "effectUsesHeadsetInfo": false,
+      "effectUsesHmdNetworkingAPI": false,
+      "effectUsesI18n": false,
+      "effectUsesIdTracker": false,
+      "effectUsesImageAntiAliasing": false,
+      "effectUsesImageAssets": false,
+      "effectUsesImageBasedLighting": true,
+      "effectUsesInstruction": false,
+      "effectUsesIntent": false,
+      "effectUsesInterEffectLinking": false,
+      "effectUsesInternalScriptingAPI": false,
+      "effectUsesIrisTracking": false,
+      "effectUsesJavaScript": false,
+      "effectUsesJavaScriptRuntimeForPatches": false,
+      "effectUsesJavaScriptScripting": false,
+      "effectUsesJavaScriptShaders": false,
+      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesLayers": false,
+      "effectUsesLocale": false,
+      "effectUsesLocation": false,
+      "effectUsesLocationAirportData": false,
+      "effectUsesMaterialsScriptingModule": false,
+      "effectUsesMaxParticipants": false,
+      "effectUsesMicrophone": false,
+      "effectUsesMicrophoneV2": false,
+      "effectUsesMovingTargetTracking": false,
+      "effectUsesMultipeer": false,
+      "effectUsesMultipeerMessaging": false,
+      "effectUsesMultiplane": false,
+      "effectUsesMultiplayer": false,
+      "effectUsesMultipleRenderTargets": false,
+      "effectUsesMusic": false,
+      "effectUsesNativeUIControl": false,
+      "effectUsesNativeUIControlEditableText": false,
+      "effectUsesNativeUIControlEditableTextExitCB": false,
+      "effectUsesNativeUIControlPicker": false,
+      "effectUsesNativeUIControlPickerRemoteImages": false,
+      "effectUsesNativeUIControlRawTextInput": false,
+      "effectUsesNativeUIControlSlider": false,
+      "effectUsesNativeUIControlSliderTypeColor": false,
+      "effectUsesNetworking": false,
+      "effectUsesNetworkingScriptAPI": false,
+      "effectUsesObjectCapture": false,
+      "effectUsesObjectTracking": false,
+      "effectUsesOpticalFlow": false,
+      "effectUsesOpusCodec": false,
+      "effectUsesOverlayOutput": false,
+      "effectUsesPBRMaterial": true,
+      "effectUsesParticipant": false,
+      "effectUsesParticleSystem": false,
+      "effectUsesPeerOutput": false,
+      "effectUsesPeerVideoStream": false,
+      "effectUsesPermissions": false,
+      "effectUsesPersistence": false,
+      "effectUsesPersistenceCaptureScope": false,
+      "effectUsesPersistenceSharedScope": false,
+      "effectUsesPersonalization": false,
+      "effectUsesPhysics": false,
+      "effectUsesPhysicsSync": false,
+      "effectUsesPlaneNormal": false,
+      "effectUsesPlaneTrackerTrackTextureAPI": false,
+      "effectUsesPlatformEvents": false,
+      "effectUsesPlatformEventsDocumentScoped": false,
+      "effectUsesPlatformFunctions": false,
+      "effectUsesPlatformTextures": false,
+      "effectUsesPlaybackInfo": false,
+      "effectUsesPortalPose": false,
+      "effectUsesPreciseLocation": false,
+      "effectUsesPrefabScriptingModule": false,
+      "effectUsesPreviewCaptureOutputs": false,
+      "effectUsesQPL": false,
+      "effectUsesRGBCameraTexture": false,
+      "effectUsesRTRMapping": false,
+      "effectUsesRandomScriptingModule": false,
+      "effectUsesReactiveScriptingModule": false,
+      "effectUsesRealScaleEstimation": false,
+      "effectUsesRealScaleEstimationWithFallback": false,
+      "effectUsesRecognition": false,
+      "effectUsesRecognitionTracking": false,
+      "effectUsesRecordedSignalsForSamplers": false,
+      "effectUsesRemote3DModels": false,
+      "effectUsesRemoteMaps": false,
+      "effectUsesRenderPasses": false,
+      "effectUsesRenderSettingsHigh": false,
+      "effectUsesRingTryOn": false,
+      "effectUsesRotateVector": false,
+      "effectUsesSceneDepth": false,
+      "effectUsesSceneDepthWithFallback": false,
+      "effectUsesSceneObjectTags": false,
+      "effectUsesSceneRenderPassResolutionAspectRatio": false,
+      "effectUsesSceneScriptingModule": false,
+      "effectUsesScriptAnalytics": false,
+      "effectUsesScriptingDynamicInstantiation": false,
+      "effectUsesSegmentation": false,
+      "effectUsesSegmentationType": false,
+      "effectUsesShaderCode": false,
+      "effectUsesShaderPicking": false,
+      "effectUsesShadows": false,
+      "effectUsesSkinSegmentation": false,
+      "effectUsesSkinSmoothing": false,
+      "effectUsesSpaceSetup": false,
+      "effectUsesSpatialGesture": false,
+      "effectUsesSpatialHandTracking": false,
+      "effectUsesSplitScreen": false,
+      "effectUsesStaticTargetTracking": false,
+      "effectUsesStyleTransfer": false,
+      "effectUsesSupportedOrientations": false,
+      "effectUsesSvg": false,
+      "effectUsesSyncDomApis": false,
+      "effectUsesTargetRecognition": false,
+      "effectUsesTextAssets": false,
+      "effectUsesTextCaptions": false,
+      "effectUsesTextExtrusion": false,
+      "effectUsesTexturesScriptingModule": false,
+      "effectUsesTimeScriptingModule": false,
+      "effectUsesToasterTracking": false,
+      "effectUsesTouchGestures": true,
+      "effectUsesTwoDimensionalText": true,
+      "effectUsesTypeScript": false,
+      "effectUsesUiCore": false,
+      "effectUsesUiPlanarBackend": false,
+      "effectUsesUnifiedTargetTracking": false,
+      "effectUsesUnitsScriptingModule": false,
+      "effectUsesVariadicMath": true,
+      "effectUsesVertexTextureFetch": false,
+      "effectUsesVisualShaders": false,
+      "effectUsesVisualShadersSdf": false,
+      "effectUsesVoiceInteraction": false,
+      "effectUsesWarpPostProcessor": false,
+      "effectUsesWarpPreProcessor": false,
+      "effectUsesWarpSmoothing": true,
+      "effectUsesWeather": false,
+      "effectUsesWebPTexture": false,
+      "effectUsesWebsockets": false,
+      "effectUsesWorldTracker": true,
+      "effectUsesWorldTrackerEnvironmentLight": false,
+      "effectUsesWorldTrackerJSAPI": false,
+      "effectUsesWorldTrackingWorldMap": false,
+      "effectUsesWorldUnderstanding": false,
+      "effectUsesWorldUnderstandingV2": false,
+      "effectUsesWriteableSignalSource": false,
+      "engineSDKVersion": "180.0",
+      "externalTexturesWhitelistedDomains": null,
+      "faceExpressionFittingMinVersion": 15,
+      "faceExpressionFittingRTRRetargetingMinVersion": 1,
+      "faceTrackerIsEnabled": false,
+      "faceTrackerMaxFaces": 1,
+      "faceTrackerMinVersion": 10,
+      "facewaveMinVersion": 1,
+      "hairSegmentationMinVersion": 1,
+      "handTrackerMaxHands": 2,
+      "handTrackerMinVersion": 3,
+      "instructionFindAnImageBackCameraEnabled": true,
+      "instructionFindAnImageFrontCameraEnabled": true,
+      "instructionFindBodyBackCameraEnabled": true,
+      "instructionFindBodyFrontCameraEnabled": true,
+      "instructionFindFaceBackCameraEnabled": true,
+      "instructionFindFaceFrontCameraEnabled": true,
+      "instructionFindHandBackCameraEnabled": true,
+      "instructionFindHandFrontCameraEnabled": true,
+      "instructionFindPersonBackCameraEnabled": true,
+      "instructionFindPersonFrontCameraEnabled": true,
+      "instructionTokens": null,
+      "interEffectLinkingEffectIds": null,
+      "internalScriptingAPIDelay": false,
+      "internalScriptingAPIDeprecatedParticles": false,
+      "internalScriptingAPIEventStream": false,
+      "internalScriptingAPIExperimentalCameraInfo": false,
+      "internalScriptingAPIGlobalTransform": false,
+      "manuallyEnabledItemsIds": [
+        "effectUsesDeviceMotion"
+      ],
+      "maxParticipantsCount": 0,
+      "multiclassSegmentationMinVersion": 3004,
+      "objectTrackerMaxObjects": 1,
+      "optionalCapabilityItemIds": [],
+      "persistenceWhitelistedKeys": null,
+      "personalizationSpecialOccasion": "none",
+      "platformUsage": {},
+      "recognitionMinVersion": 2,
+      "ringTryOnMinVersion": 1,
+      "sceneDepthMinVersion": 1,
+      "sceneDepthWithFallbackMinVersion": 1,
+      "segmentationMinVersion": 2,
+      "shaderPostProcessor": false,
+      "shaderPreProcessor": false,
+      "supportsLandscape": false,
+      "supportsPortrait": true,
+      "supportsWildcardDomainsWhitelisting": false,
+      "targetRecognitionMinVersion": 2,
+      "touchGesturesSupportsLongPress": false,
+      "touchGesturesSupportsPan": false,
+      "touchGesturesSupportsPinch": false,
+      "touchGesturesSupportsRawTouch": false,
+      "touchGesturesSupportsRotate": false,
+      "touchGesturesSupportsTap": true,
+      "whitelistedDomains": null,
+      "witAppId": null,
+      "witClientToken": null,
+      "worldTrackerBackCameraEnabled": true,
+      "worldTrackerFrontCameraEnabled": true,
+      "worldTrackerMode": "plane",
+      "worldTrackerUsesFaceTracker": false
+    },
+    {
+      "modelName": "asset_attributions_model",
+      "identifier": "asset_attributions_model:939-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:1237-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetAuthor": "Spark AR Assets",
+          "assetModelIdentifier": "asset_collection_model:1204-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetTitle": "Hires Sphere Primitive",
+          "assetURLString": "",
+          "licenseModelIdentifier": "license_model:1235-90076185-1dcf-4055-b4da-01824ec9556b"
+        },
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:1711-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetAuthor": "Spark AR Assets",
+          "assetModelIdentifier": "asset_collection_model:1709-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetTitle": "Cylinder Primitive",
+          "assetURLString": "",
+          "licenseModelIdentifier": "license_model:1235-90076185-1dcf-4055-b4da-01824ec9556b"
+        }
+      ]
+    },
+    {
+      "modelName": "licenses_model",
+      "identifier": "licenses_model:941-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "license_model",
+          "name": "Creative Commons Attribution 4.0",
+          "identifier": "license_model:1235-90076185-1dcf-4055-b4da-01824ec9556b",
+          "linkURLString": "https://creativecommons.org/licenses/by/4.0/",
+          "slug": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "modelName": "playback_controllers_model",
+      "identifier": "playback_controllers_model:943-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "playback_controller_model",
+          "name": "audioPlaybackController0",
+          "identifier": "playback_controller_model:22679-90076185-1dcf-4055-b4da-01824ec9556b",
+          "fileLocator": {
+            "path": "audios/audioPlaybackController0.audioctrl"
+          },
+          "soundIdentifier": "sound:23099-90076185-1dcf-4055-b4da-01824ec9556b"
+        }
+      ]
+    },
+    {
+      "modelName": "target",
+      "identifier": "target:947-90076185-1dcf-4055-b4da-01824ec9556b",
+      "targetPlatforms": [
+        "instagram",
+        "facebook"
+      ],
+      "targetUseCases": [
+        "STORIES"
+      ]
+    },
+    {
+      "modelName": "sounds",
+      "identifier": "sounds:951-90076185-1dcf-4055-b4da-01824ec9556b",
+      "children": [
+        {
+          "modelName": "sound",
+          "name": "Cannon Sound Effect.m4a",
+          "identifier": "sound:23099-90076185-1dcf-4055-b4da-01824ec9556b",
+          "assetDataHash": "e5109e691ede287f29128a0daa5a4a70",
+          "assetLocator": "sounds/Cannon Sound Effect.m4a",
+          "duration": 1903.990966796875,
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "scripting_config_model",
+      "identifier": "scripting_config_model:955-90076185-1dcf-4055-b4da-01824ec9556b",
+      "forceStrictModeCompilation": true
+    },
+    {
+      "modelName": "graphicsConfig",
+      "identifier": "graphicsConfig:975-90076185-1dcf-4055-b4da-01824ec9556b"
+    },
+    {
+      "modelName": "videos_model",
+      "identifier": "videos_model:1072-90076185-1dcf-4055-b4da-01824ec9556b"
+    },
+    {
+      "modelName": "input_mappings_model",
+      "identifier": "input_mappings_model:1076-90076185-1dcf-4055-b4da-01824ec9556b"
+    }
+  ]
+}

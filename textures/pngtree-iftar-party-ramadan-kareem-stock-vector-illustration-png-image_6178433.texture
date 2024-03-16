@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "pngtree-iftar-party-ramadan-kareem-stock-vector-illustration-png-image_6178433",
+  "identifier": "texture:16753-90076185-1dcf-4055-b4da-01824ec9556b",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "76257712e4791bd26ef0dbc04de8083b",
+  "assetLocator": "textures/pngtree-iftar-party-ramadan-kareem-stock-vector-illustration-png-image_6178433.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "76257712e4791bd26ef0dbc04de8083b",
+      "colorCount": 29809,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.42384476436266,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}
